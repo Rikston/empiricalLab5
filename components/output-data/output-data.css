@@ -1,0 +1,11 @@
+.row-item {
+  color: black;
+  font: 300 15px Roboto;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+}
+.row {
+  margin: 0;
+  user-select: text;
+  background: white;
+}

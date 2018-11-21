@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab - 5</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/global.css" />
+    <link rel="stylesheet" href="components/input-data/input-data.css" />
+    <link rel="stylesheet" href="components/output-data/output-data.css" />
+  </head>
+  <body>
+    <div id="root">
+      <input-data v-bind:c_data="currentData"></input-data>
+      <output-data v-bind:info="tableData"></output-data>
+      <output-data v-bind:info="information"></output-data>
+    </div>
+    <script src="JS/data.js"></script>
+    <script src="JS/vue.js"></script>
+    <script src="components/input-data/input-data.js"></script>
+    <script src="components/output-data/output-data.js"></script>
+    <script src="JS/logic.js"></script>
+  </body>
+</html>
